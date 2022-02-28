@@ -1,0 +1,5 @@
+print(f"Laura "*5)
+print(f"Ba"+ "na"*5)
+print(f"In a year are {365*24*60*60} seconds")
+print(10**100)
+print(1000*(1.06**12))
