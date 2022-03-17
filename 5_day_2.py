@@ -17,7 +17,7 @@ while ("*" in result):
     guess = input("Guess a character: ").upper()
 
     if len(guess) != 1:
-        break
+        print("Please enter only one char!")
     else:
         count = the_name.count(guess) # cik tādu burtu ir vārdā?
         if count > 0:
