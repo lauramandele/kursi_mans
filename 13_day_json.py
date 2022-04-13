@@ -4,6 +4,7 @@ print("Enter coordinates where are you now")
 lon = input("Longitude: ")
 lat = input("Latitude: ")
 
+# weather forecast for 7 days
 src = "https://www.7timer.info/bin/civillight.php?lon="+lon+"&lat="+lat+"&ac=0&unit=metric&output=json&tzshift=0"
 # src = "https://www.7timer.info/bin/civillight.php?lon=24.6&lat=56.8&ac=0&unit=metric&output=json&tzshift=0"
 
